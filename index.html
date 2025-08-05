@@ -397,7 +397,13 @@
           </div>
 
           <div class="col-lg-7">
-            <form id="contact-form" acaction="https://formsubmit.co/a43c4151897865e113ee1554bb2ed440" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form id="contact-form" action="https://formsubmit.co/a43c4151897865e113ee1554bb2ed440" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <!--Honey pot-->
+              <input type="text" name="_honey" style="display: none;">
+
+              <!--disable captcha-->
+              <input type="hidden" name="_captcha" value="false">
+
               <div class="row gy-4">
 
                 <div class="col-md-6">
